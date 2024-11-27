@@ -164,7 +164,7 @@ html{
 .wrapper{
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
     margin-top: 3%;
     margin: auto;
 }
@@ -179,8 +179,17 @@ html{
     position: relative;
     padding: 30% 120%;
     color: #d1d1d1;
+    align-items: center;
+    justify-content: center;
 
 }
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .btn-1{
