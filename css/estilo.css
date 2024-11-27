@@ -75,7 +75,7 @@ html{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    background-color:#00a1dbea ;
+    background-color:#465257ea ;
     color: #000000;
     padding-top: 1.5rem;
     height:5rem;
@@ -177,7 +177,7 @@ html{
     border-radius: 6px ;
     letter-spacing: 3px;
     position: relative;
-    padding: 30% 120%;
+    padding: 30% 180%;
     color: #d1d1d1;
     align-items: center;
     justify-content: center;
@@ -492,7 +492,7 @@ html{
     padding: 0;
 }
 
-.lista1 a, .lista2 a {
+.lista1 a, .lista2 a:target {
     padding: 0.5rem 0;
     text-align: center; 
 }
@@ -599,6 +599,23 @@ html{
       max-width: 150px; 
     }
   }
+
+  @media (max-width: 768px) {
+    .btn-1 {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .btn-1 {
+      padding: 8px 16px;
+      font-size: 0.8rem;
+    }
+  }
+
+
+
 
 
 
