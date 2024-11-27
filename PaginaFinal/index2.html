@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripcion</title>
+    <meta name="author" content="Alan Gomez">
+    <link rel="icon" href="/logo/logo (1).png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/estilo2.css" rel="stylesheet">
+    <title>Inscripcion</title>
+</head>
+<body>
+    <!--pagina con bootstrap-->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg" style="border: none;">
+                    <div class="card-header text-white text-center" id="titulo-formulario">
+                        <h3>Formulario de Contacto</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre completo</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Número de teléfono</label>
+                                <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu número de teléfono">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary w-100" onclick="redirigir()">
+                                Inscribirse
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Script JavaScript -->
+        <script>
+            function redirigir() {
+                // Cambiar la URL a otra página (por ejemplo, "pagina2.html")
+                window.location.href = '/index.html'; 
+            }
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="author" content="Alan Gomez">
+    <link rel="icon" href="/logo/logo (1).png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@212&display=swap" rel="stylesheet">
+    <title>ProgramPip</title>
+</head>
+<body>
+    <header>
+        <div class="borde-cuadro-opciones">
+            <div class="borde-imagen">
+                <img class="imagen" src="/logo/logo (1).png" alt="imagen">
+            </div>
+            <a class="links" href="https://liceorbl.cl/v.24/">Nuestros convenios</a>
+            <a class="links" href="https://code.visualstudio.com">primeros pasos</a>
+            <a class="links" href="/index2.html">Inscribirse</a>
+
+            <a class="links" href="/#info-block">bases para empezar</a>
+        </div>
+        <div class="caja-imagen2">
+            <img class="imagen2" src="/imagenes/Imagen-programacion.jpg" alt="imagen not found">
+        </div>
+        
+    </header>
+
+
+    <nav>
+        <div class="text-container">
+            <h2 class="text">El futuro es hoy...</h2>
+        </div>
+
+        <div class="wrapper">
+            <div class="button-container">
+                <button type="button" class="btn btn-1" onclick="redirigir()">inscribirse</button>
+            </div>
+        </div>
+
+        <picture class="qr">
+            <img src="/QR/código QR(1).png" alt="qr">
+        </picture>
+
+        <div class="contenedor-pregunta">
+            <h1 class="Pregunta">¿Porque deberia estudiar Programación?</h1>
+        </div>
+
+        <ul class="lista-razon">
+            <li class="elemento1"><a class="lista" href="#">v</a>
+                <ul>
+                    <li>
+                        <span>Flexibilidad:</span>La programación permite trabajar desde cualquier lugar del mundo.
+                    </li>
+                </ul>
+            </li>
+            <li class="elemento1"><a class="lista" href="#">v</a>
+                <ul>
+                    <li>
+                        <span>Desarrollo de habilidades:</span> Aprender a programar ayuda a desarrollar habilidades para resolver problemas, pensamiento analítico y creatividad.
+                    </li>
+                </ul>
+            </li>
+            <li class="elemento1"><a class="lista" href="#">v</a>
+                <ul>
+                    <li>
+                        <span>Programación creativa:</span> La programación creativa es un ejercicio transdisciplinar que difumina las barreras del arte, el diseño y la computación.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+
+        <div class="boton_container2">
+            <a class="boton_footer" href="javascript:void(0);" onclick="toggleInfoBlock()" href="#info-block">¡Mas información!</a>
+        </div>
+
+        <div id="info-block" class="info-block">
+            <h2>Lista de programas mas famosos en programacion</h2>
+            <p>Lenguajes de programacion:</p>
+            <ol>
+                <li>
+                    JavaScript:
+                    Es uno de los lenguajes más usados para el desarrollo web, tanto en el front-end como en el back-end. Permite crear páginas dinámicas y aplicaciones web interactivas. <img class="imagenes-footer" src="/imagenes/JS.png" alt="imagenes">
+                </li>
+                <li>
+                    Python:
+                        Es un lenguaje versátil y sencillo que se puede utilizar en una amplia gama de aplicaciones, desde el desarrollo web hasta la ciencia de datos, el aprendizaje automático y la Inteligencia Artificial. <img  class="imagenes-footer" src="/imagenes/Python.png" alt="imagenes">
+                </li>
+                <li>
+                    Java:
+                        Es el segundo lenguaje de programación más utilizado, superado únicamente por C. Es muy demandado en el mercado laboral. <img class="imagenes-footer" src="/imagenes/Java.png" alt="imagenes">
+                </li>
+                <li>
+                    HTML/CSS:
+                        Fue uno de los tres lenguajes de programación más populares entre los desarrolladores que respondieron a la encuesta de 2022 de Stack Overflow. <img class="imagenes-footer" src="/imagenes/html-css-logo.png" alt="imagenes">
+                </li>
+                <li>
+                    SQL:
+                    Fue uno de los tres lenguajes de programación más populares entre los desarrolladores que respondieron a la encuesta de 2022 de Stack Overflow. <img class="imagenes-footer" src="/imagenes/Sql.png" alt="imagenes">
+                </li>
+                <li>
+                    C#:
+                    Es uno de los mejores lenguajes de programación para crear aplicaciones web<img class="imagenes-footer" src="/imagenes/C.png" alt="imagenes">
+                </li>
+            </ol>
+        </div>
+        <footer>
+            <div class="barra-footer">
+                <div class="lista1">
+                    <ul>
+                        <li><a href="https://www.instagram.com/_sevenalan_/">contáctanos</a></li>
+                        <li><a href="#">trabaja con nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="lista2">
+                    <ul>
+                        <li><a href="#">convenios</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div id="derechos">
+                    <p>Todos los derechos reservados</p>
+                </div>
+            </div>
+        </footer>
+
+    <script>
+        function redirigir() {
+            window.location.href = '/index2.html'; 
+        }
+    </script>
+
+<script>
+    function toggleInfoBlock() {
+        var infoBlock = document.getElementById('info-block');
+        
+        // Si el bloque está visible, lo ocultamos
+        if (infoBlock.style.display === 'block') {
+            infoBlock.style.display = 'none';
+        } else {
+            // Si el bloque está oculto, lo mostramos
+            infoBlock.style.display = 'block';
+        }
+    }
+</script>
+</body>
+</html>
