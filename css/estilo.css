@@ -173,7 +173,7 @@ html{
 .btn{
     background-color: transparent;
     cursor:grab;
-    margin-left: -30%;
+    margin-left: 0%;
     border-radius: 6px ;
     letter-spacing: 3px;
     position: relative;
