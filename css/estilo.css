@@ -164,9 +164,14 @@ html{
 .wrapper{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin-top: 3%;
     margin: auto;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -183,13 +188,6 @@ html{
     justify-content: center;
 
 }
-
-.button-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 
 .btn-1{
