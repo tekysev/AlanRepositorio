@@ -164,7 +164,7 @@ html{
 .wrapper{
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 30vh;
     margin-top: 3%;
     margin: auto;
 }
