@@ -294,7 +294,7 @@ html{
 }
 
 
-.elemento ul:hover{
+.elemento > ul:hover{
     transform: translateY(20px);
     transition-duration: 1.5s;
 }
