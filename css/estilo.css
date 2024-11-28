@@ -328,7 +328,7 @@ html{
 
 }
 
-.lista2 > a{
+.lista2 a{
     text-decoration: none;
     color: #fff;
 }
