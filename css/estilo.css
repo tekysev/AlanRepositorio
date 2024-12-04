@@ -620,7 +620,7 @@ html{
     }
   }
 
-@media (max-width: 480px){
+@media (max-width: 468px){
     .lista-razon li:hover ul{
         height:50rem;
     }
