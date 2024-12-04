@@ -621,7 +621,7 @@ html{
   }
 
 @media (max-width: 468px){
-    .elemento1 ul li:hover{
+    .lista-razon elemento1 ul li:hover{
         height:50rem;
     }
 
