@@ -281,7 +281,7 @@ html{
 .lista-razon li:hover ul{
     display: block;
     list-style: none;
-    height: 25rem;
+    height: 30rem;
 }
 
 
@@ -297,6 +297,7 @@ html{
     border-bottom: #4b2f2f ;
 
 }
+
 
 
 .elemento > ul:hover{
