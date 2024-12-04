@@ -410,7 +410,7 @@ html{
 
 
 .info-block {
-    display: none; 
+    display: flex; 
     background-color: #1a1919;
     color: white;
     padding: 2rem;
@@ -445,7 +445,8 @@ html{
 
 .imagenes-footer{
 
-    display: block;               
+    display: block;   
+    justify-content:center;
     margin: 0 auto;               
     width: 100%;                  
     max-width: 15rem;             
