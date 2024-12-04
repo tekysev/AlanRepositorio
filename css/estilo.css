@@ -411,7 +411,7 @@ html{
 
 
 .info-block {
-    display: flex; 
+    display: block; 
     background-color: #1a1919;
     color: white;
     padding: 2rem;
@@ -622,7 +622,7 @@ html{
 
 @media (max-width: 480px){
     .lista-razon li:hover ul{
-        height:27rem;
+        height:30rem;
     }
 
 
