@@ -590,7 +590,7 @@ html{
         
     }
 
-    .boton-sesion{
+    .btn{
         width: 40%;
         height: 40%;
         margin: 50px 20px;
@@ -616,6 +616,7 @@ html{
 @media (max-width: 480px) {
     .btn-1 {
       padding: 8px 16px;
+      height:
       font-size: 0.8rem;
     }
   }
