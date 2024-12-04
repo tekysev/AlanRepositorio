@@ -616,8 +616,9 @@ html{
 @media (max-width: 480px) {
     .btn-1 {
       padding: 8px 16px;
-      height:
+      heigth:auto;
       font-size: 0.8rem;
+      width:200%;
     }
   }
 
