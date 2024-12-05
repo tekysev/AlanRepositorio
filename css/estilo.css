@@ -177,7 +177,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+
 }
 
 
@@ -596,6 +596,9 @@ html{
         height: 27%;
         margin: 50px 20px;
         
+    }
+    .boton-container{
+        width:40%;
     }
 
 }
