@@ -513,6 +513,21 @@ html{
     text-align: center; 
 }
 
+.bi-gitlab{
+    color:#fff;
+    width: 3rem;             
+    height:3rem;
+    
+}
+
+
+.container-iconos{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+}
+
 
 
 #derechos{
