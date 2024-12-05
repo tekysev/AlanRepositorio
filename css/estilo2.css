@@ -32,6 +32,7 @@ h3 {
     border: 1px solid #111111;
 }
 
+
 .form-control:focus {
     border-color: #000000;
     box-shadow: 0 0 5px #00000040;
@@ -114,6 +115,10 @@ button[type="submit"]:hover {
 
 .bi-envelope-at-fill{
     color:#fff;
+}
+
+.bi-feather{
+    color:#fff;  
 }
 
 
