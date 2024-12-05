@@ -67,3 +67,42 @@ button[type="submit"]:hover {
         margin: 0 15px;
     }
 }
+
+.Volver{
+    color: white;
+    text-decoration: none;
+    
+
+}
+.container-volver{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.container-imagen{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.imagen{
+    width: 20rem;
+
+}
+
+.Volver:focus{
+    border-radius: 5px  ;
+
+
+}
+
+.Volver:hover{
+    box-shadow: 0 0 0 3px white;
+}
+
+.imagen1{
+    height: 20rem;
+
+}
